@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+  <head>
+    <%- partial('_partial/head',{cache: true}) %>
+  </head>
+  <body>
+    <div class="wrapper">
+      <%- partial('_partial/header',{cache: true}) %>
+      <div class="main">
+        <%- body %>
+      </div>
+      <%- partial('_partial/footer',{cache: true}) %>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-26347106-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-26347106-2");
+    </script>
+  </body>
+</html>
