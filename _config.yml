@@ -13,8 +13,8 @@ timezone: America/Recife
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://renesoaresse.github.io/personal-site
-root: /personal-site/
+url: https://renesoaresse.github.io/site
+root: /site/
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -96,5 +96,5 @@ theme: chic
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/renesoaresse/personal-site.git
+  repo: git@github.com:renesoaresse/site.git
   branch: gh-pages
